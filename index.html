@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotogallerie</title>
+    <link rel="icon" type="image/x-icon" href="./img/icons8-photos-400.png">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="addImagesToArrays(); loadImages()">
+    <h1 id="title">Fotogallerie</h1>
+    <div id="image" ontouchstart="touchStart(event)" ontouchmove="touchMove(event)" ontouchend="touchEnd()"
+        class="image d-none">
+
+    </div>
+    <main id="catalog" class="catalog">
+
+    </main>
+</body>
+
+</html>
